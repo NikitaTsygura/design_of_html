@@ -98,3 +98,33 @@ File "button..html" you can find small code for one button with a proposal "Clic
 
 
 
+<h2>Button: design 5 (gradient button)</h2>
+In folder "button", you can find two files:
+<ul>
+   <li>button..html</li>
+   <li>design_of_button_5_gradient.css</li>
+</ul>
+
+In file "design_of_button_4_icon.css" you can find full design_5 of button. It is a normal button with gradient from pink to arange.It is have:
+<ul>
+    <li>Gradient from pink to orange</li>
+    <li>Removing borders</li>
+    <li>Slight rounding</li>
+    <li>White text</li>
+    <li>Spacious button</li>
+    <li>Smooth transition for effects</li>
+    <li>Light shadow</li>
+</ul>
+
+when you hover over the button with your cursor:
+<ul>
+    <li>reverse gradient on hover</li>
+    <li>Stronger shadow</li>
+</ul>
+
+When you click the button:
+<ul>
+    <li>Easy to press to decrease</li>
+</ul>
+
+File "button..html" you can find small code for one button with a proposal "Click me".
