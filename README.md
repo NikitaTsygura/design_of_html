@@ -189,7 +189,7 @@ when you hover over the button with your cursor:
     <li>Enhanced shadow</li>
 </ul>
 
-when you hover over the button with your cursor:
+When you click the button:
 <ul>
     <li>Pressing - the button "goes down"</li>
     <li>Weaker shadow</li>
@@ -208,3 +208,37 @@ In file "button..html" you need change one line:
     ...
    ```
 
+<h2>Button: design 8 (Ruby button)</h2>
+In folder "button", you can find two files:
+<ul>
+   <li>button..html</li>
+   <li>design_of_button_8_ruby.css</li>
+</ul>
+
+In file "design_of_button_8_ruby.css" you can find full design_8 of button. It is look like a ruby with ruby gradient. It is have:
+<ul>
+    <li>Ruby Gradient</li>
+    <li>Deep red frame color</li>
+    <li>Rounded shape but not round</li>
+    <li>White text</li>
+    <li>Internal lighting</li>
+    <li>Outer shadow</li>
+    <li>Light shine</li>
+    <li>Glow</li>
+    <li>Bevels</li>
+</ul>
+
+when you hover over the button with your cursor:
+<ul>
+    <li>Enhanced glow</li>
+    <li></li>
+</ul>
+
+When you click the button:
+<ul>
+    <li>Easy to press to decrease</li>
+    <li>Reduced glow</li>
+</ul>
+
+File "button..html" you can find small code for one button with a proposal "Click me".
+<hr>
