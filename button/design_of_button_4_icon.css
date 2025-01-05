@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #e3f2fd; /* Light blue background */
+    font-family: Arial, sans-serif;
+}
+
+.custom-button {
+    background: #2196f3; /* Bright blue background */
+    border: none; /* Removing borders */
+    border-radius: 50%; /* The button is round */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* White icon */
+    font-size: 24px; /* Icon size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Light shadow */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.custom-button:hover {
+    background: #1769aa; /* Darker on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enlarged shadow */
+}
+
+.custom-button:active {
+    transform: scale(0.9); /* Shrink button when pressed */
+}

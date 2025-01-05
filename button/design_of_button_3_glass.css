@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+}
+
+.custom-button {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Easy border */
+    border-radius: 10px; /* Rounded edges */
+    backdrop-filter: blur(10px); /* Blur effect behind the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for volume */
+    color: #fff; /* White text */
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth effects */
+}
+
+.custom-button:hover {
+    background: rgba(255, 255, 255, 0.4); /* Lighter background on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enlarged shadow */
+}
+
+.custom-button:active {
+    transform: scale(0.95); /* Easy to press to decrease */
+}
