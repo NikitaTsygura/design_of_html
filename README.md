@@ -163,3 +163,48 @@ When you click the button:
 
 File "button..html" you can find small code for one button with a proposal "Click me".
 
+
+
+<h2>Button: design 7 (Retro button)</h2>
+In folder "button", you can find two files:
+<ul>
+   <li>button..html</li>
+   <li>design_of_button_7_retro.css</li>
+</ul>
+
+In file "design_of_button_7_retro.css" you can find full design_7 of button. It is a button with design retro, from 80's. It is have:
+<ul>
+    <li>Pixel style font</li>
+    <li>Bright gradient in 80's style</li>
+    <li>White text</li>
+    <li>Black frame for clarity</li>
+    <li>Capital letters</li>
+    <li>Slightly rounded edges</li>
+    <li>"Retro" shadow effect</li>
+</ul>
+
+when you hover over the button with your cursor:
+<ul>
+    <li>Easy lift when hovering</li>
+    <li>Enhanced shadow</li>
+</ul>
+
+when you hover over the button with your cursor:
+<ul>
+    <li>Pressing - the button "goes down"</li>
+    <li>Weaker shadow</li>
+</ul>
+
+File "button..html" you can find small code for one button with a proposal "Click me".
+
+**Important:** 
+In file "button..html" you need change one line:
+
+```bash
+    ...
+   <link rel="stylesheet" href="styles.css">
+    <!-- Connecting a font for a retro style -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    ...
+   ```
+

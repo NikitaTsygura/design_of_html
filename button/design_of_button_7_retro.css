@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1a1a1a; /* Dark background for contrast */
+    font-family: 'Press Start 2P', cursive; /* Pixel style font */
+}
+
+.custom-button {
+    background: linear-gradient(90deg, #ff0077, #ffcc00); /* Bright gradient in 80's style */
+    color: #ffffff; /* White text */
+    border: 4px solid #000; /* Black frame for clarity */
+    padding: 12px 20px;
+    text-transform: uppercase; /* Capital letters */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px; /* Letter spacing */
+    border-radius: 4px; /* Slightly rounded edges */
+    box-shadow: 0 4px 0 #000, 0 8px 15px rgba(0, 0, 0, 0.5); /* "Retro" shadow effect */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px); /* Easy lift when hovering */
+    box-shadow: 0 6px 0 #000, 0 10px 20px rgba(0, 0, 0, 0.7); /* Enhanced shadow */
+}
+
+.custom-button:active {
+    transform: translateY(2px); /* Pressing - the button "goes down" */
+    box-shadow: 0 2px 0 #000, 0 4px 10px rgba(0, 0, 0, 0.3); /* Weaker shadow */
+}
