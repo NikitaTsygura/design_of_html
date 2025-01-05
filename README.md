@@ -2,7 +2,7 @@
 <h4>by Nikita Tsygura</h4>
 <hr>
 
-In this project willbe a lot of diferent designs of buttons, switcher, animations, etc.
+In this project will be a lot of diferent designs of buttons, switcher, animations, etc.
 <hr>
 
 <h2>Button: design 1</h2>
@@ -105,7 +105,7 @@ In folder "button", you can find two files:
    <li>design_of_button_5_gradient.css</li>
 </ul>
 
-In file "design_of_button_4_icon.css" you can find full design_5 of button. It is a normal button with gradient from pink to arange.It is have:
+In file "design_of_button_5_gradient.css" you can find full design_5 of button. It is a normal button with gradient from pink to arange.It is have:
 <ul>
     <li>Gradient from pink to orange</li>
     <li>Removing borders</li>
@@ -128,3 +128,38 @@ When you click the button:
 </ul>
 
 File "button..html" you can find small code for one button with a proposal "Click me".
+
+
+
+<h2>Button: design 6 (glow button)</h2>
+In folder "button", you can find two files:
+<ul>
+   <li>button..html</li>
+   <li>design_of_button_6_glow.css</li>
+</ul>
+
+In file "design_of_button_6_glow.css" you can find full design_6 of button.It is look like normal black button, with bright glow edges. It is have:
+<ul>
+    <li>Dark button background</li>
+    <li>White text</li>
+    <li>Luminous (glow) edges</li>
+    <li>Rounded edges</li>
+    <li>Capital letters of text</li>
+    <li>Glow</li>
+</ul>
+
+when you hover over the button with your cursor:
+<ul>
+    <li>The background is illuminated</li>
+    <li>Dark text on hover</li>
+    <li>Enhanced glow</li>
+</ul>
+
+When you click the button:
+<ul>
+    <li>Easy to press to decrease</li>
+    <li>Weaker glow</li>
+</ul>
+
+File "button..html" you can find small code for one button with a proposal "Click me".
+

@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #121212; /* Dark background for contrast */
+    font-family: Arial, sans-serif;
+}
+
+.custom-button {
+    background: #1e1e1e; /* Dark button background */
+    color: #ffffff; /*White text */
+    border: 2px solid #00ffc6; /* Luminous (glow) edges */
+    border-radius: 10px; /* Rounded edges */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-transform: uppercase; /* Заглавные буквы текста */
+    box-shadow: 0 0 10px #00ffc6, 0 0 20px #00ffc6, 0 0 30px rgba(0, 255, 198, 0.5); /* Glow */
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    background: #00ffc6; /* The background is illuminated */
+    color: #121212; /* Dark text on hover */
+    box-shadow: 0 0 15px #00ffc6, 0 0 30px #00ffc6, 0 0 45px rgba(0, 255, 198, 0.7); /* Enhanced glow */
+}
+
+.custom-button:active {
+    transform: scale(0.95); /* Easy to press to decrease */
+    box-shadow: 0 0 8px #00ffc6, 0 0 16px rgba(0, 255, 198, 0.5); /* Weaker glow */
+}
