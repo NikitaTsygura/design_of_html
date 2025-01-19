@@ -4,6 +4,21 @@
 
 In this project will be a lot of diferent designs of buttons, switcher, animations, etc.
 <hr>
+<h2>How to connect file css to file html?</h2>
+In any file html, you can find in line 7 something like this:
+
+```bash
+<link rel="stylesheet" href="static.css">
+  ```
+
+You need just chanche "static.css" no eny file css, examples:
+<ul>
+    <li>design_of_button.css</li>
+    <li>design_of_button_2.css</li>
+    <li>design_of_button_3_glass.css</li>
+    <li>etc.</li>
+</ul>
+<hr>
 
 <h2>Button: design 1</h2>
 In folder "button", you can find two files:
@@ -242,3 +257,7 @@ When you click the button:
 
 File "button..html" you can find small code for one button with a proposal "Click me".
 <hr>
+<hr>
+
+
+<h2>Table: design 1</h2>
