@@ -14,8 +14,7 @@ In any file html, you can find in line 7 something like this:
 You need just chanche "static.css" no eny file css, examples:
 <ul>
     <li>design_of_button.css</li>
-    <li>design_of_button_2.css</li>
-    <li>design_of_button_3_glass.css</li>
+    <li>design_of_table.css</li>
     <li>etc.</li>
 </ul>
 <hr>
@@ -246,7 +245,6 @@ In file "design_of_button_8_ruby.css" you can find full design_8 of button. It i
 when you hover over the button with your cursor:
 <ul>
     <li>Enhanced glow</li>
-    <li></li>
 </ul>
 
 When you click the button:
@@ -261,3 +259,179 @@ File "button..html" you can find small code for one button with a proposal "Clic
 
 
 <h2>Table: design 1</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table.css</li>
+</ul>
+
+In file "design_of_table.css" you can find full design_1 of table. It is the easiest design of table. It is have:
+<ul>
+    <li>black head-line</li>
+    <li>white list lines</li>
+</ul>
+
+It is don`t have any animation on hover or click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+
+
+<h2>Table: design 2</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table_2.css</li>
+</ul>
+
+In file "design_of_table_2.css" you can find full design_2 of table. It is the easiest design of table for black term. It is have:
+<ul>
+    <li>very dark blue head-line</li>
+    <li>white list lines</li>
+</ul>
+
+when you hover over the table with your cursor:
+<ul>
+    <li>white list line/lines will be a little be it darker</li>
+</ul>
+
+It is don`t have any animation when on click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+
+
+
+<h2>Table: design 3 (Cards)</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table_3_cards.css</li>
+</ul>
+
+In file "design_of_table_3_cards.css" you can find full design_3 of table. It is looks like a cards, each column separately. It is have:
+<ul>
+    <li>red-pink head-line</li>
+    <li>very small red-pink line (looks like a separately cars)</li>
+    <li>white list lines</li>
+</ul>
+
+It is don`t have any animation on hover or click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+
+
+
+
+<h2>Table: design 4 (Gradient)</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table_4_gradient.css</li>
+</ul>
+
+In file "design_of_table_4_gradient.css" you can find full design_4 of table. It is looks like a normal table, but head-line have a gradient on each column. It is have:
+<ul>
+    <li>gradient from purple to blue on head-line</li>
+    <li>white list lines</li>
+</ul>
+
+when you hover over the table with your cursor:
+<ul>
+    <li>white list line/lines will be a little be it darker</li>
+</ul>
+
+It is don`t have any animation when on click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+
+
+
+<h2>Table: design 5 (Geometric style)</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table_5_geometric.css</li>
+</ul>
+
+In file "design_of_table_5_geometric.css" you can find full design_5 of table. It is looks like a normal table, but everything is a bit cartoonish or geometric in proportions. It is have:
+<ul>
+    <li>Orange head-line</li>
+    <li>white-orange list lines</li>
+</ul>
+
+It is don`t have any animation on hover or click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+
+
+
+<h2>Table: design 6 (Rounded corners)</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table_6_corners.css</li>
+</ul>
+
+In file "design_of_table_6_corners.css" you can find full design_6 of table. It is looks like a rounded corners. It is have:
+<ul>
+    <li>green head-line</li>
+    <li>white list lines</li>
+    <li>full table- one simple box</li>
+</ul>
+
+when you hover over the table with your cursor:
+<ul>
+    <li>white list line/lines will be a little be it darker</li>
+</ul>
+
+It is don`t have any animation when on click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+
+
+
+<h2>Table: design 7 (Neon style)</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table_7_neon.css</li>
+</ul>
+
+In file "design_of_table_7_neon.css" you can find full design_7 of table. It is looks like a normal table, but all edges neon-green. It is have:
+<ul>
+    <li>black head-line</li>
+    <li>black list lines</li>
+    <li>all edges neon-green</li>
+    <li>all letters neon_green</li>
+</ul>
+
+when you hover over the table with your cursor:
+<ul>
+    <li>black list line/lines will be a little be it lighter and letters a little be white</li>
+    <li>on black head-line lighter will be white</li>
+</ul>
+
+It is don`t have any animation when on click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+
+
+
+<h2>Table: design 8 (Chess style)</h2>
+In folder "table", you can find two files:
+<ul>
+   <li>table..html</li>
+   <li>design_of_table_8_chess.css</li>
+</ul>
+
+In file "design_of_table_8_chess.css" you can find full design_8 of table. It is looks like a normal table, but all lines and column like a chass bord. It is have:
+<ul>
+    <li>black head-line</li>
+    <li>white list lines</li>
+    <li>head-line full one line</li>
+</ul>
+
+It is don`t have any animation on hover or click.
+
+File "table..html" you can find small code for table with head-line and one list line.
+<hr>
+<hr>

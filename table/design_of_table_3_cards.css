@@ -1,0 +1,23 @@
+<style>
+  table {
+    width: 80%;
+    border-spacing: 0 10px;
+    border-collapse: separate;
+    margin: 20px auto;
+  }
+  th {
+    background-color: #ff6f61;
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+  }
+  td {
+    padding: 12px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: 4px solid #ff6f61;
+  }
+  tr {
+    border-radius: 8px;
+  }
+</style>
