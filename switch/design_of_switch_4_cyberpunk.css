@@ -1,0 +1,68 @@
+/* design_of_switch_cyberpunk.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212; /* Темный фон */
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Контейнер для выравнивания */
+.switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Стиль переключателя с неоновым эффектом */
+.custom-switch {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ff0080, #ff8c00); /* Неоновый градиент */
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 0, 128, 0.6), 0 0 20px rgba(255, 140, 0, 0.6);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+/* Элемент внутри переключателя */
+.custom-switch:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #222222; /* Темный цвет кнопки */
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.7), 0 0 15px rgba(0, 255, 255, 0.5); /* Неоновый свет */
+    transition: all 0.3s ease;
+}
+
+/* Активное состояние переключателя */
+.custom-switch.active {
+    background: linear-gradient(145deg, #00ff80, #00b8ff); /* Зеленый и синий неон */
+}
+
+.custom-switch.active:before {
+    transform: translateX(50px);
+    background-color: #121212; /* Темный цвет при активации */
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.9), 0 0 15px rgba(0, 255, 255, 0.9);
+}
+
+/* Плавный эффект при наведении */
+.custom-switch:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 128, 0.8), 0 0 30px rgba(255, 140, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.custom-switch:active {
+    box-shadow: 0 0 10px rgba(255, 0, 128, 0.8), 0 0 15px rgba(255, 140, 0, 0.8);
+    transform: scale(0.98);
+}

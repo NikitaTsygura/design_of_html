@@ -1,0 +1,64 @@
+/* design_of_switch_3_3D.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Контейнер для выравнивания */
+.switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стиль самого переключателя */
+.custom-switch {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #6e7bff, #5a66ff);
+    position: relative;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+/* Элемент внутри переключателя */
+.custom-switch:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Активное состояние переключателя */
+.custom-switch.active {
+    background: linear-gradient(145deg, #ff7c7c, #ff4e4e);
+}
+
+.custom-switch.active:before {
+    transform: translateX(50px);
+    background-color: #f4f4f4;
+}
+
+/* Плавный эффект при наведении */
+.custom-switch:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), -6px -6px 12px rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+.custom-switch:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.4);
+    transform: translateY(2px);
+}

@@ -435,3 +435,169 @@ It is don`t have any animation on hover or click.
 File "table..html" you can find small code for table with head-line and one list line.
 <hr>
 <hr>
+
+
+<h2>Switch: design 1</h2>
+In folder "switch", you can find two files:
+<ul>
+   <li>switch..html</li>
+   <li>design_of_switch.css</li>
+</ul>
+
+In file "design_of_switch.css" you can find full design_1 of switch. It is looks like a normal easy switch. It is have:
+<ul>
+    <li>white circle for switching</li>
+    <li>ON: green background</li>
+    <li>OFF: gray background</li>
+</ul>
+
+It is don`t have any animation on hover.
+
+When you chick on it:
+<ul>
+    <li>switching</li>
+</ul>
+
+File "switch..html" you can find small code for switch with circle for switching.
+
+
+
+<h2>Switch: design 2 (Neon)</h2>
+In folder "switch", you can find two files:
+<ul>
+   <li>switch..html</li>
+   <li>design_of_switch_2_neon.css</li>
+</ul>
+
+In file "design_of_switch_2_neon.css" you can find full design_2 of switch. It is looks like a normal easy switch. It is have:
+<ul>
+    <li>circle for switching</li>
+    <li>ON: neon lightblue background and black circle</li>
+    <li>OFF: black background and neon lightblue circle</li>
+    <li>small lighting on all edges</li>
+</ul>
+
+It is don`t have any animation on hover.
+
+When you chick on it:
+<ul>
+    <li>switching</li>
+    <li>change neon color of background and circle</li>
+</ul>
+
+File "switch..html" you can find small code for switch with circle for switching.
+
+
+
+<h2>Switch: design 3 (3D)</h2>
+In folder "switch", you can find two files:
+<ul>
+   <li>switch..html</li>
+   <li>design_of_switch_3_3D.css</li>
+</ul>
+
+In file "design_of_switch_3_3D.css" you can find full design_3 of switch. It is looks like a normal switch. It is have:
+<ul>
+    <li>white circle for switching</li>
+    <li>ON: red background</li>
+    <li>OFF: blue background</li>
+</ul>
+
+When you hover on it with your cursor:
+<ul>
+    <li>lift up with small shadow</li>
+</ul>
+
+When you chick on it:
+<ul>
+    <li>switching</li>
+</ul>
+
+File "switch..html" you can find small code for switch with circle for switching.
+
+
+
+<h2>Switch: design 4 (Cyberpunk)</h2>
+In folder "switch", you can find two files:
+<ul>
+   <li>switch..html</li>
+   <li>design_of_switch_4_cyberpunk.css</li>
+</ul>
+
+In file "design_of_switch_4_cyberpunk.css" you can find full design_4 of switch. It is looks like a normal switch. It is have:
+<ul>
+    <li>black circle for switching</li>
+    <li>ON: green-blue background</li>
+    <li>OFF: red-orange background</li>
+    <li>light red shadow beside edges</li>
+</ul>
+
+When you hover on it with your cursor:
+<ul>
+    <li>make it bigger like lift up with bigger shadow</li>
+</ul>
+
+When you chick on it:
+<ul>
+    <li>switching</li>
+</ul>
+
+File "switch..html" you can find small code for switch with circle for switching.
+
+
+
+<h2>Switch: design 5 (Minimalism)</h2>
+In folder "switch", you can find two files:
+<ul>
+   <li>switch..html</li>
+   <li>design_of_switch_5_minimalism.css</li>
+</ul>
+
+In file "design_of_switch_5_minimalism.css" you can find full design_5 of switch. It is looks like a normal easy switch. It is have:
+<ul>
+    <li>green circle for switching</li>
+    <li>ON: green line on edge</li>
+    <li>OFF: gray line on edge</li>
+</ul>
+
+When you hover on it with your cursor:
+<ul>
+    <li>make bigger shadow on edges, like lift up</li>
+</ul>
+
+When you chick on it:
+<ul>
+    <li>switching</li>
+</ul>
+
+File "switch..html" you can find small code for switch with circle for switching.
+
+
+
+<h2>Switch: design 6 (Gaming)</h2>
+In folder "switch", you can find two files:
+<ul>
+   <li>switch..html</li>
+   <li>design_of_switch_6_gaming.css</li>
+</ul>
+
+In file "design_of_switch_6_gaming.css" you can find full design_6 of switch. It is looks like a normal switch. It is have:
+<ul>
+    <li>red/green circle for switching</li>
+    <li>ON: green circle and shadow near edges</li>
+    <li>OFF: red circle</li>
+</ul>
+
+When you hover on it with your cursor:
+<ul>
+    <li>make switch bigger, like lift up</li>
+</ul>
+
+When you chick on it:
+<ul>
+    <li>switching</li>
+</ul>
+
+File "switch..html" you can find small code for switch with circle for switching.
+<hr>
+<hr>

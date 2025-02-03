@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let switchElement = document.querySelector(".custom-switch");
+
+        switchElement.addEventListener("click", function() {
+            this.classList.toggle("active");
+        });
+    });
+</script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Button</title>
+    <link rel="stylesheet" href="design_of_switch_7_gradient.css">
+</head>
+<body>
+        <div class="switch-container">
+        <div class="custom-switch">
+            <span class="switch-text"></span>  <!-- Текст на белом кружочке -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.custom-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-switch::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.3s;
+}
+
+.custom-switch.active {
+    background-color: #4CAF50;
+}
+
+.custom-switch.active::before {
+    transform: translateX(30px);
+}

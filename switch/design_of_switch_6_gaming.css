@@ -1,0 +1,88 @@
+/* design_of_switch_gamer.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d1f21; /* Темный фон для контраста */
+    margin: 0;
+}
+
+/* Контейнер для выравнивания */
+.switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Стиль переключателя с RGB подсветкой */
+.custom-switch {
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #333; /* Темный фон для переключателя */
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Текст в переключателе */
+.switch-label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Элемент внутри переключателя */
+.custom-switch:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #ff3d00; /* Красный для активного состояния */
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+/* RGB эффект для фонового свечения */
+.custom-switch:active, .custom-switch.active {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6),
+                0 0 20px rgba(0, 255, 0, 0.6),
+                0 0 20px rgba(0, 0, 255, 0.6),
+                0 0 20px rgba(255, 255, 0, 0.6),
+                0 0 20px rgba(255, 0, 255, 0.6),
+                0 0 20px rgba(0, 255, 255, 0.6); /* RGB подсветка при активации */
+}
+
+/* При активном состоянии меняем цвет элемента */
+.custom-switch.active:before {
+    transform: translateX(60px); /* Перемещаем элемент вправо */
+    background-color: #00ff00; /* Зеленый цвет для активной кнопки */
+}
+
+/* Состояние при активном переключении */
+.custom-switch.active .switch-label {
+    content: "On"; /* Изменение текста на 'On' */
+}
+
+/* Плавный эффект при наведении */
+.custom-switch:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+/* Эффект для активного состояния */
+.custom-switch:active {
+    transform: scale(0.98);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
