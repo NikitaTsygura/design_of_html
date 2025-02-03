@@ -1,8 +1,18 @@
-<h1>Design of html</h1>
+<h1 id="top">Design of html</h1>
 <h4>by Nikita Tsygura</h4>
 <hr>
 
 In this project will be a lot of diferent designs of buttons, switcher, animations, etc.
+<hr>
+
+<h2>Navigation</h2>
+
+- [Top](#top)
+- [Designs for buttons (1-8)](#button-design-1)
+- [Designs for tables (1-8)](#table-design-1)
+- [Designs for switchers (1-6)](#switch-design-1)
+- [Botom](#botom)
+
 <hr>
 <h2>How to connect file css to file html?</h2>
 In any file html, you can find in line 7 something like this:
@@ -11,13 +21,15 @@ In any file html, you can find in line 7 something like this:
 <link rel="stylesheet" href="static.css">
   ```
 
-You need just chanche "static.css" no eny file css, examples:
+You need just change "static.css" no eny file css, examples:
 <ul>
     <li>design_of_button.css</li>
     <li>design_of_table.css</li>
     <li>etc.</li>
 </ul>
 <hr>
+
+<h2 id="button-design-1">Designs for buttons:</h2>
 
 <h2>Button: design 1</h2>
 In folder "button", you can find two files:
@@ -257,6 +269,18 @@ File "button..html" you can find small code for one button with a proposal "Clic
 <hr>
 <hr>
 
+<h2>Navigation</h2>
+
+- [Top](#top)
+- [Designs for buttons (1-8)](#button-design-1)
+- [Designs for tables (1-8)](#table-design-1)
+- [Designs for switchers (1-6)](#switch-design-1)
+- [Botom](#botom)
+
+<hr>
+<hr>
+
+<h2 id="table-design-1">Designs for tables:</h2>
 
 <h2>Table: design 1</h2>
 In folder "table", you can find two files:
@@ -436,6 +460,18 @@ File "table..html" you can find small code for table with head-line and one list
 <hr>
 <hr>
 
+<h2>Navigation</h2>
+
+- [Top](#top)
+- [Designs for buttons (1-8)](#button-design-1)
+- [Designs for tables (1-8)](#table-design-1)
+- [Designs for switchers (1-6)](#switch-design-1)
+- [Botom](#botom)
+
+<hr>
+<hr>
+
+<h2 id="switch-design-1">Designs for switchers:</h2>
 
 <h2>Switch: design 1</h2>
 In folder "switch", you can find two files:
@@ -601,3 +637,11 @@ When you chick on it:
 File "switch..html" you can find small code for switch with circle for switching.
 <hr>
 <hr>
+
+<h2 id="botom">Navigation</h2>
+
+- [Top](#top)
+- [Designs for buttons (1-8)](#button-design-1)
+- [Designs for tables (1-8)](#table-design-1)
+- [Designs for switchers (1-6)](#switch-design-1)
+- [Botom](#botom)
